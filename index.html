@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Attendance System</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <div id="wrapper">
+
+      <header id="header">
+        <div class="inner">
+          <a href="index.html" class="logo">
+            <span class="symbol"><img src="kvs.png" alt="" /></span
+            ><span class="title">KV Kanchanbagh</span>
+          </a>
+        </div>
+      </header>
+
+      <div id="main">
+        <div class="inner">
+          <header>
+            <p style="font-size: 1.7rem">Enter your Student UID to continue.</p>
+          </header>
+          <div id="stuff">
+            <input
+              type="text"
+              placeholder="Student UID"
+              id="uid"
+              maxlength="15"
+            />
+            <br />
+            <button onclick="check()" id="check">Check</button>
+          </div>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <div class="inner">
+          <section>
+            <h2>Contact</h2>
+            <li>
+              Postal Address: Kendriya Vidyalaya Kanchanbagh DRDO Township
+              Kanchanbagh Hyderabad - 500058
+            </li>
+            <li>Phone: 04024340232</li>
+            <li>
+              Email:
+              <a href="mailto:kvdrdohyd@gmail.com">kvdrdohyd@gmail.com</a>
+            </li>
+          </section>
+          <ul class="copyright">
+            <li>&copy; KV Kanchanbagh. All rights reserved</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
