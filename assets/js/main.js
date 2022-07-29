@@ -61,11 +61,17 @@ function check() {
         <p style="font-size: 20px;">Roll Numebr: <b>${data[uid].roll}</b></p>
         <p style="font-size: 20px;">UID: <b>${uid}</b></p>
         <p style="font-size: 20px;">Last Scan of ID card: <b>${data[uid].lastScanned}</b></p>
+        <button onclick="reload_()">Check More</button>
       </div>
       `;
     });
   }
 }
+
+function reload_() {
+  location.reload();
+}
+
 /*
 from datetime import date, datetime
 time_ = datetime.now().strftime("%I:%M:%S %p")
