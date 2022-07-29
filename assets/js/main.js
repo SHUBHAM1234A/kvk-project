@@ -58,7 +58,7 @@ function check() {
       <div id="stuff">
         <p style="font-size: 20px;">Name: <b>${data[uid].name}</b></p>
         <p style="font-size: 20px;">Class: <b>${data[uid].class} ${data[uid].section}</b></p>
-        <p style="font-size: 20px;">Roll Numebr: <b>${data[uid].roll}</b></p>
+        <p style="font-size: 20px;">Roll Number: <b>${data[uid].roll}</b></p>
         <p style="font-size: 20px;">UID: <b>${uid}</b></p>
         <p style="font-size: 20px;">Last Scan of ID card: <b>${data[uid].lastScanned}</b></p>
         <button onclick="reload_()">Check More</button>
